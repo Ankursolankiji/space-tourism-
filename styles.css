@@ -1,0 +1,117 @@
+body{
+    background-image: url("assets/home/background-home-desktop.jpg");
+  overflow: hidden;
+}
+/* headings and texts */
+.heading-one{
+    font-family: 'Bellefair', serif;
+    font-size:  150px;
+    color: var(--color-light);
+}
+.heading-two{
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    color: var(--color-light);
+}
+.heading-three{
+    font-family: 'Bellefair', serif;
+    font-size:56px;
+    color: var(--color-light);
+}
+.heading-four{
+    font-family: 'Bellefair', serif;
+    color: var(--color-light);
+    font-size:32px;
+}
+.heading-five{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--color-light);
+    font-size: 28px;
+}
+.subheading-one{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size :28px;
+    color: var(--color-light);
+}
+.subheading-two{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:14px;
+    color: var(--color-light);
+    letter-spacing: 2.35 px;
+}
+
+.body-text{
+    color: var(--color-light);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:18px;
+}
+/* navbar */
+.nav{
+    padding-top: 35px;
+    height: 135px;
+    padding-right: 7.321vw;
+    /* background-color: antiquewhite; */
+}
+
+
+.container-fluid{
+    position: relative;
+    padding-left: 4%;
+    margin-right: 2%;
+    padding-right: 0;
+height:95px;
+
+}
+.rectangle-one{
+    top: 81px;
+    left: 140px;
+    position: absolute;
+    width: 31.7vw;
+    z-index: +1;
+    height: 1px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.rectangle-two{
+    height: 90px;
+   width: 65.886vw;
+    position: absolute;
+    left:40vw;
+    top:35px;
+    background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(15px);
+}
+.nav-text a{
+    padding: 35px 0;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color:var(--color-light);
+    text-decoration:none; 
+    margin-right:3.367vw ;
+}
+/* contwnt */
+.explore{
+    margin: 30.9vh 0 0 33vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: var(--color-dark);
+    border-radius: 50%;
+    background-color: white;
+    height: 18vw    ;
+    width: 18vw    ;
+}
+.index-content-left{
+    padding: 17vh 0 0 9vw;
+    width: 570px;
+}
+.index-content-left h4{
+    font-size: 28px;
+}
+.index-content-left p{
+
+}
