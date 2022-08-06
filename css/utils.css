@@ -8,3 +8,65 @@
 /* font-family: 'Barlow Condensed', sans-serif;
 font-family: 'Bellefair', serif; */
 
+/* headings and texts */
+.heading-one{
+    font-family: 'Bellefair', serif;
+    font-size:  10.714vw;
+    color: var(--color-light);
+}
+.heading-two{
+    font-family: 'Bellefair', serif;
+    font-size: 7.143vw;
+    color: var(--color-light);
+}
+.heading-three{
+    font-family: 'Bellefair', serif;
+    font-size:4vw;
+    color: var(--color-light);
+}
+.heading-four{
+    font-family: 'Bellefair', serif;
+    color: var(--color-light);
+    font-size:2.286vw;
+}
+.heading-five{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--color-light);
+    font-size: 2vw;
+}
+.subheading-one{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size :2vw;
+    color: var(--color-light);
+}
+.subheading-two{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:2vw;
+    color: var(--color-light);
+    letter-spacing: 0.168vw;
+}
+
+.body-text{
+    color: var(--color-light);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:1.286vw;
+}
+.nav-text a{
+    padding: 33px 0;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.143vw;
+    letter-spacing: 0.193vw;
+    color:var(--color-light);
+    text-decoration:none; 
+    margin-right:3.367vw ;
+    transition:  0.5s ;
+}
+.active-navtext a{
+    padding: 33px 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-text a:hover{
+    border-bottom: 2px solid #ffffff7a;
+}
