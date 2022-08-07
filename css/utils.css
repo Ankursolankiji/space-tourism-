@@ -26,12 +26,12 @@ font-family: 'Bellefair', serif; */
 }
 .heading-four{
     font-family: 'Bellefair', serif;
-    color: var(--color-light);
+    color: var(--color-medium);
     font-size:2.286vw;
 }
 .heading-five{
     font-family: 'Barlow Condensed', sans-serif;
-    color: var(--color-light);
+    color: var(--color-medium);
     font-size: 2vw;
 }
 .subheading-one{
@@ -47,26 +47,29 @@ font-family: 'Bellefair', serif; */
 }
 
 .body-text{
-    color: var(--color-light);
+    color: var(--color-medium);
     font-family: 'Barlow Condensed', sans-serif;
     font-size:1.286vw;
 }
 .nav-text a{
-    padding: 33px 0;
+    padding: 30px 0;
     text-transform: uppercase;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.143vw;
     letter-spacing: 0.193vw;
     color:var(--color-light);
-    text-decoration:none; 
+    text-decoration:none;  
     margin-right:3.367vw ;
     transition:  0.5s ;
 }
 .active-navtext a{
-    padding: 33px 0;
+    padding: 30px 0;
     border-bottom: 2px solid #ffffff;
 }
 
 .nav-text a:hover{
     border-bottom: 2px solid #ffffff7a;
+}
+.hidden{
+    display: none;
 }

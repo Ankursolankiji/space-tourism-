@@ -6,33 +6,124 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
+  <!-- bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ 
+  <link rel="stylesheet" href="css/utils.css">
+ <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/destination.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
+<body class="destination-body europa"> 
+  <div class="rectangle-one">
+    
+  </div>
+  <div class="rectangle-two">
+    
+  </div>
+  <nav class="navbar navbar-expand-sm navbar-dark nav">
+    <div class="container-fluid">
+   <a class="navbar-brand" href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg></a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+      
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body navmain">
+      
+  
+    <ul class="navbar-nav ms-auto tabs">
+      <li id="nav-1" class="nav-item nav-text ">
+        <a href="index.html"><b>00</b> &nbsp Home</a>
+      </li>
+      <li id= "nav-2" class="nav-item nav-text active-navtext">
+       <a href="destination-moon.html"><b>01</b> &nbsp Destination</a>
+      </li>
+      <li id="nav-3" class="nav-item nav-text">
+       <a href="crew-commander.html"><b>02</b> &nbsp Crew</a>
+      </li>
+      <li id = "nav-4" class="nav-item nav-text">
+      <a href="technology-vehicle.html"><b>03</b>  &nbspTechnology</a>
+      </li>
+    </ul>
+   
+              
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  </div>
+</div>
+</nav> 
+ <div class=" row main-page-content">
+ <div class="col-12">
+<p class="subheading-one">
+<b>01</b> &nbsp &nbsp  PICK YOUR DESTINATION
+</p>
+ </div>
+ <div class="col-lg-6">
+<div class="dest-image">
+  <img src="assets/destination/image-europa.webp" alt="mooon phto">
+</div>
+ </div>
+ <div class=" body-container col-lg-6"> 
+  <div class="sub-nav">
+ <div class="tab-text nav-text " >
+  <a href="destination-moon.html">MOON</a>
+ </div>
+ <div class="tab-text nav-text " >
+  <a href="destination-mars.html">MARS</a>
+ </div> 
+ <div class="tab-text nav-text active-tabtext" >
+  <a href="destination-europa.html">EUROPA</a>
+ </div>
+ <div class="tab-text nav-text" >
+  <a href="destination-titan.html">TITAN</a>
+ </div>
+ </div>
 
-  01 Pick your destination
 
-  Moon
-  Mars
-  Europa
-  Titan
+ 
+<h2 class="heading-two">
+ EUROPA
+</h2>
+<p class="body-text">
+  he smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.
+</p>
 
-  Europa
+ <hr>
+ <div class="info-container">
+<div class="info"> <p class="body-text">
+AVG. DISTANCE
+ </p>
+ <p class="subheading-two">
+  628 MIL. KM
+ </p>
+ </div>
+<div class="info">
+<p class="body-text">
+  EST. TRAVEL TIME
+   </p>
+   <p class="subheading-two">
+ 3 YEARS
+   </p>
+</div>
+</div>
 
-  The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
-  winter lover’s dream. With an icy surface, it’s perfect for a bit of 
-  ice skating, curling, hockey, or simple relaxation in your snug 
-  wintery cabin.
 
-  Avg. distance
-  628 mil. km
+ </div>
+  
 
-  Est. travel time
-  3 years
+  
+
+</div>
+
+
+
+</div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
