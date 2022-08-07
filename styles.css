@@ -59,8 +59,8 @@ backdrop-filter: blur(15px);
     align-items: center;
     justify-content: center;
     left: 15vw;
-    margin-bottom: 8vh;
-    top: 10.6vh;
+    margin: 0 4vw 150px 0;
+    top: 17vh;
 }
 .explore{
     /* margin: auto 0 0 auto; */
@@ -100,7 +100,7 @@ backdrop-filter: blur(15px);
 .index-content-left{
     width: 570px;
     position: relative;
-    margin-bottom: 8vh;
+    margin-bottom: 150px;
     left: 8vw;
     top:22vh;
     
