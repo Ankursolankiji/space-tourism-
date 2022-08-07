@@ -1,9 +1,7 @@
 .subheading-one{
     padding: 7vh 0 7vh 10vw;
 }
-b{
-    color: var(--color-medium);
-}
+
 .body-container {
     bottom: 4vh;
     position: relative;

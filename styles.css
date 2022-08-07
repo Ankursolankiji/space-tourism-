@@ -11,6 +11,9 @@ body{
     padding-bottom: 10vh;
     background-image: url("assets/destination/background-destination-desktop.jpg");
 }
+.crew-body{
+    background-image: url("assets/crew/background-crew-desktop.jpg");
+}
 /* navbar */
 .nav{
     padding-top: 35px;

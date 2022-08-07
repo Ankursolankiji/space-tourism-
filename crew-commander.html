@@ -1,27 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/utils.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/crew.css">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+<body class=" crew-body">
+  <div class="rectangle-one">
 
-  02 Meet your crew
+  </div>
+  <div class="rectangle-two">
 
-  Commander
-  Douglas Hurley
+  </div>
+  <nav class="navbar navbar-expand-sm navbar-dark nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+          <g fill="none" fill-rule="evenodd">
+            <circle cx="24" cy="24" r="24" fill="#FFF" />
+            <path fill="#0B0D17"
+              d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z" />
+          </g>
+        </svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
 
-  Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
-  and former NASA astronaut. He launched into space for the third time as 
-  commander of Crew Dragon Demo-2.
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body navmain">
+
+
+          <ul class="navbar-nav ms-auto tabs">
+            <li id="nav-1" class="nav-item nav-text ">
+              <a href="index.html"><b>00</b> &nbsp Home</a>
+            </li>
+            <li id="nav-2" class="nav-item nav-text ">
+              <a href="destination-moon.html"><b>01</b> &nbsp Destination</a>
+            </li>
+            <li id="nav-3" class="nav-item nav-text active-navtext">
+              <a href="crew-commander.html"><b>02</b> &nbsp Crew</a>
+            </li>
+            <li id="nav-4" class="nav-item nav-text">
+              <a href="technology-vehicle.html"><b>03</b> &nbspTechnology</a>
+            </li>
+          </ul>
+
+
+
+        </div>
+      </div>
+  </nav>
+
+  <!-- <div class=" row main-page-content">
+    <div class="col-4">
+      
+    </div> -->
+
+
+  <div id="carouselIndicators" class="carousel slide" data-bs-ride="true ">
+    <div class="carousel-indicators slide-indicators">
+      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active "
+        aria-label="Slide 1" aria-current="true"></button>
+      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+        class=""></button>
+      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+        class=""></button>
+      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"
+        class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="content-crew">
+          <div class="content">
+            <p class="subheading-one">
+              <b>02</b> &nbsp &nbsp MEET YOUR CREW
+            </p>
+            <div class="content-two">
+              <h5 class="heading-five">
+                COMMANDER
+              </h5>
+              <H3 class="heading-three">
+                DOUGLAS HURLEY
+              </H3>
+              <DIV class="body-text">
+                Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He
+                launched into space for the third time as commander of Crew Dragon Demo-2.
+              </DIV>
+            </div>
+          </div>
+          <div class="content-img">
+            <img src="./assets/crew/image-douglas-hurley.webp" alt="">
+          </div>
+        </div>
+
+
+      </div>
+      <div class="carousel-item">
+        <div class="content-crew">
+          <div class="content">
+            <p class="subheading-one">
+              <b>02</b> &nbsp &nbsp MEET YOUR CREW
+            </p>
+            <div class="content-two">
+              <h5 class="heading-five">
+                MISSION SPECIALIST
+              </h5>
+              <H3 class="heading-three">
+                MARK SHUTTLEWORTH
+              </H3>
+              <DIV class="body-text">
+                Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu
+                operating system. Shuttleworth became the first South African to travel to space as a space tourist.
+              </DIV>
+            </div>
+          </div>
+          <div class="content-img">
+            <img src="./assets/crew/image-mark-shuttleworth.webp" alt="">
+          </div>
+        </div>
+      </div>
+
+
+    
+    <div class="carousel-item">
+      <div class="content-crew">
+        <div class="content">
+          <p class="subheading-one">
+            <b>02</b> &nbsp &nbsp MEET YOUR CREW
+          </p>
+          <div class="content-two">
+            <h5 class="heading-five">
+              PILOT
+            </h5>
+            <H3 class="heading-three">
+              VICTOR GLOVER
+            </H3>
+            <DIV class="body-text">
+              Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover
+              is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and
+              served as a station systems flight engineer.
+            </DIV>
+          </div>
+        </div>
+        <div class="content-img">
+          <img src="./assets/crew/image-victor-glover.webp" alt="">
+        </div>
+      </div>
+    </div>
+
+
+  
+  <div class="carousel-item">
+    <div class="content-crew">
+      <div class="content">
+        <p class="subheading-one">
+          <b>02</b> &nbsp &nbsp MEET YOUR CREW
+        </p>
+        <div class="content-two">
+          <h5 class="heading-five">
+            FLIGHT ENGINEER
+          </h5>
+          <H3 class="heading-three">
+            ANOUSHEH ANSARI
+          </H3>
+          <DIV class="body-text">
+            Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He
+            launched into space for the third time as commander of Crew Dragon Demo-2.
+          </DIV>
+        </div>
+      </div>
+      <div class="content-img">
+        <img src="./assets/crew/image-anousheh-ansari.webp" alt="">
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+ 
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>

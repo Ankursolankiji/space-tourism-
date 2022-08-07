@@ -64,12 +64,15 @@ font-family: 'Bellefair', serif; */
 }
 .active-navtext a{
     padding: 30px 0;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
 }
 
 .nav-text a:hover{
-    border-bottom: 2px solid #ffffff7a;
+    border-bottom: 3px solid #ffffff7a;
 }
 .hidden{
     display: none;
+}
+b{
+    color: var(--color-medium);
 }
