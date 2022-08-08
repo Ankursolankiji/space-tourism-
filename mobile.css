@@ -2,12 +2,27 @@
     body {
         background-image: url("assets/home/background-home-mobile.jpg");
         height: fit-content;
-        background-size:auto;
+        overflow-y: hidden;
+        
 
     }
+    .destination-body{
+        overflow-y: hidden;
+        background-image: url("assets/destination/background-destination-mobile.jpg");
+    }
+    .nav-text a {
+        font-size: 6vw;
+        padding: 1vh;
+        padding-left: 0;
+        
+      }
+/* main */
     .index-content-left{
-        height: auto;
+        /* height: auto; */
         padding-bottom: 1vh;
+    }
+    .heading-two{
+        font-size: 15vw;
     }
     .btn-explore{
         height: 30vh;
@@ -35,8 +50,30 @@
     }
 
     .body-text {
-        word-spacing: .4vw;
+     
         font-size: 3vw;
+        line-height: 20px;
     }
+    .index-content-left .body-text{
+        line-height: 19px;
+    }
+    /* destinatoion */
+    .main-page-content .sub-nav a{
+        font-size: 4vw;
+        padding: 1vw;
+    margin: 0;
+    
+      }
+      .main-page-content .nav-text {
+        margin: 1vw 2.3vw;
+      }
+      .main-page-content img{
+        width: 70vw;
+        height: 70vw;
+      }
+    .main-page-content .subheading-one{
+        font-size: 6vw;
+        text-align: center;
+}
 
 }

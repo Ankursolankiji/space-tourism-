@@ -15,7 +15,7 @@
 text-align: center;
 }
 .dest-image img{
-    width: 56vh;
+    width: 35vw;
     animation: rotation 60s infinite linear;
 }
 .sub-nav{

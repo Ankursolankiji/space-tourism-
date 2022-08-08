@@ -1,227 +1,305 @@
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
+  /* font-size */
+  .heading-four {
+    font-size: 2.5vw;
+  }
 
-    /* font-size */
-    .heading-four {
-        font-size: 2.5vw;
-    }
+  .heading-five,
+  .subheading-one,
+  .subheading-two {
+    font-size: 2.25vw;
+  }
 
-    .heading-five,
-    .subheading-one,
-    .subheading-two {
-        font-size: 2.25vw;
+  .index-content-left h4 {
+    font-size: 2.5vw;
+  }
 
-    }
+  .heading-one {
+    font-size: 13vw;
+  }
 
-    .index-content-left h4 {
-        font-size: 2.5vw;
-    }
+  .body-text {
+    font-size: 1.5vw;
+  }
 
-    .heading-one {
-        font-size: 13vw;
-    }
+  .nav-text a {
+    font-size: 1.2vw;
+  }
 
-    .body-text {
-        font-size: 1.5vw;
-    }
+  /* main */
+  .explore {
+    height: 20vw;
+    width: 20vw;
+  }
 
-    .nav-text a {
-        font-size: 1.2vw;
-    }
-
-    /* main */
-    .explore {
-        height: 20vw;
-        width: 20vw;
-    }
-
-    .explore-hover {
-        height: 20vw;
-        width: 20vw;
-    }
+  .explore-hover {
+    height: 20vw;
+    width: 20vw;
+  }
 }
 
-@media(max-width:770px) {
+@media (max-width: 767px) {
+  /* font-size */
+  .heading-four {
+    font-size: 3vw;
+  }
 
-    /* font-size */
-    .heading-four {
-        font-size: 3vw;
-    }
+  .heading-five,
+  .subheading-one,
+  .subheading-two {
+    font-size: 3.5vw;
+    text-align: left;
+  }
 
-    .heading-five,
-    .subheading-one,
-    .subheading-two {
-        font-size: 2.25vw;
+  .index-content-left h4 {
+    font-size: 2.8vw;
+    padding-top: 2vh;
+  }
 
-    }
+  .heading-one {
+    padding-top: 2vh;
+    font-size: 17vw;
+  }
+  .heading-two{
+    font-size: 12vw;
+  }
+  .body-text {
+    
+    font-size: 2.5vw;
+    width:65vw;
+    line-height: 25px;
+  }
 
-    .index-content-left h4 {
-        font-size: 2.8vw;
-        padding-top: 2vh;
-    }
+  .nav-text a {
+    font-size: 2vw;
+  }
 
-    .heading-one {
-        padding-top: 2vh;
-        font-size: 17vw;
-    }
+  /* home-page */
+  nav b {
+    display: none;
+  }
 
-    .body-text {
-        font-size: 2vw;
-    }
+  .nav {
+    padding: 0;
+    height: 80px;
+  }
 
-    .nav-text a {
-        font-size: 2vw;
-    }
+  .index-content-left {
+    margin: 0 auto;
+    padding: 10% 5%;
+    width: 90vw;
+    position: static;
+    text-align: center;
+  }
+  .index-content-left .body-text{
+    font-size: 2.5vw;
+    width:65vw;
+    line-height: 30px;
+  }
+  .rectangle-one {
+    display: none;
+  }
 
-    /* home-page */
-    nav b {
-        display: none;
-    }
+  .rectangle-two {
+    top: 0px;
+  }
+  /* background: ; */
+  body {
+    background-image: url("assets/home/background-home-tablet.jpg");
+  }
 
-    .nav {
-        padding: 0;
-        height: 80px;
-    }
+  .destination-body {
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
 
-    .index-content-left {
-        margin: 0 auto;
-        padding: 10% 5%;
-        width: 90VW;
-        position: static;
-        text-align: center;
-    }
+    text-align: center;
+    background-position: auto;
+    background-image: url("assets/destination/background-destination-tablet.jpg");
+  }
+  /* main; */
+  .explore {
+    height: 30vw;
+    width: 30vw;
+  }
 
-    .rectangle-one {
-        display: none;
-    }
+  .btn-explore {
+    width: 100vw;
+    position: static;
+    margin: 0 auto;
+    height: 50vh;
+  }
 
-    .rectangle-two {
-        top: 0px;
-    }
-/* background: ; */
-    body {
-        background-image: url("assets/home/background-home-tablet.jpg")
-    }
+  .explore-hover {
+    height: 30vw;
+    width: 30vw;
+  }
 
-    .explore {
-        height: 30vw;
-        width: 30vw;
-    }
+  .explore-hover:hover {
+    height: 40vw;
+    width: 40vw;
+  }
+  /* .destination-body */
+  .destination-body img {
+    width: 40vw;
+    height: 40vw;
+    position: static;
+    margin: 3vh 0;
+  }
+  .subheading-one {
+    margin: 0;
+    padding: 3.5vh 5vw;
+  } 
+  .info .subheading-two{
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+  }.body-text{
+    margin:3vh auto;
+    margin-bottom: 0;
+    
+  }
+  .info .body-text{
+    font-size: 2vw;
+    width: 20vw;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 1vh;
+  }
+   .body-container {
+    position: static;
+    margin: 4vh auto;
+    
+  }
+  
+  .sub-nav {
+    justify-content: center;
+  }
+  .info{
+    width: 20vw;
+  }
+ .info-container{
+    margin: 0vh auto;
+    justify-content: center;
+ }
+ hr{
+    margin: auto;
+    width: 65vw;
+ }
+}
+@media (max-width: 575px) {
+  nav b {
+    display: inline-block;
+  }
 
-    .btn-explore {
-        width: 100vw;
-        position: static;
-        margin: 0 auto;
-        height: 50vh;
-    }
+  /* toggler */
+  .rectangle-two {
+    display: none;
+  }
 
-    .explore-hover {
-        height: 30vw;
-        width: 30vw;
-    }
+  .navbar-toggler {
+    border: none;
+  }
 
-    .explore-hover:hover {
-        height: 40vw;
-        width: 40vw;
-    }
+  .navbar-toggler {
+    color: white;
+  }
+
+  .navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .offcanvas {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(15px);
+  }
+
+  .nav-text a {
+    font-size: 4vw;
+    padding: 1vh;
+    padding-left: 0;
+    
+  }
+
+  .nav-text {
+    margin: 3vh;
+    text-align: left;
+  }
+
+  .active-navtext a {
+    padding: 1vh;
+    padding-left: 0;
+    border-bottom: 3px solid #ffffff;
+  }
+
+  .nav-text a:hover {
+    padding: 1vh;
+    padding-left: 0;
+    border-bottom: 3px solid #ffffff7a;
+  }
+
+  /* font-size */
+  .heading-two{
+    font-size: 13vw;
+  }
+  .heading-four {
+    font-size: 5vw;
+  }
+
+  .heading-five,
+  .subheading-one,
+  .subheading-two {
+    font-size: 2.25vw;
+  }
+
+  .index-content-left h4 {
+    font-size: 3.5vw;
+    padding-top: 2vh;
+  }
+
+  .heading-one {
+    padding-top: 2vh;
+    font-size: 20vw;
+  }
+
+  .body-text {
+    font-size: 2.8vw;
+  }
+/* main */
+  .explore {
+    height: 40vw;
+    width: 40vw;
+  }
+
+  .btn-explore {
+    width: 100vw;
+    position: static;
+    margin: 0 auto;
+    height: 60vh;
+  }
+
+  .explore-hover {
+    height: 40vw;
+    width: 40vw;
+  }
+
+  .explore-hover:hover {
+    height: 50vw;
+    width: 50vw;
+  }
+  /* .destination-body */
+  .main-page-content .sub-nav a{
+    font-size: 3vw;
+    padding: 1vw;
+margin: 0;
+  }
+  .main-page-content img{
+    width: 60vw;
+    height: 60vw;
+  }
+.main-page-content .subheading-one{
+    font-size: 4vw;
 }
 
-@media(max-width:575px) {
-    nav b {
-        display: inline-block;
-    }
-
-    /* toggler */
-    .rectangle-two {
-        display: none;
-    }
-
-    .navbar-toggler {
-        border: none;
-
-    }
-
-    .navbar-toggler {
-        color: white;
-    }
-
-    .navbar-toggler:focus {
-        border: none;
-        box-shadow: none;
-    }
-
-    .offcanvas {
-        background: rgba(255, 255, 255, 0.04);
-        backdrop-filter: blur(15px);
-    }
-
-    .nav-text a {
-        font-size: 4vw;
-        padding: 1vh;
-        padding-left: 0;
-    }
-
-    .nav-text {
-
-        margin: 3vh;
-    }
-
-    .active-navtext a {
-        padding: 1VH;
-        padding-left: 0;
-        border-bottom: 3px solid #ffffff;
-    }
-
-    .nav-text a:hover {
-        padding: 1VH;
-        padding-left: 0;
-        border-bottom: 3px solid #ffffff7a;
-    }
-
-    /* font-size */
-    .heading-four {
-        font-size: 5vw;
-    }
-
-    .heading-five,
-    .subheading-one,
-    .subheading-two {
-        font-size: 2.25vw;
-
-    }
-
-    .index-content-left h4 {
-        font-size: 3.5vw;
-        padding-top: 2vh;
-    }
-
-    .heading-one {
-        padding-top: 2vh;
-        font-size: 20vw;
-    }
-
-    .body-text {
-        font-size: 2.8vw;
-    }
-
-    .explore {
-        height: 40vw;
-        width: 40vw;
-    }
-
-    .btn-explore {
-        width: 100vw;
-        position: static;
-        margin: 0 auto;
-        height: 60vh;
-    }
-
-    .explore-hover {
-        height: 40vw;
-        width: 40vw;
-    }
-
-    .explore-hover:hover {
-        height: 50vw;
-        width: 50vw;
-    }
 }
