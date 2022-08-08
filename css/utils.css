@@ -50,6 +50,7 @@ font-family: 'Bellefair', serif; */
     color: var(--color-medium);
     font-family: 'Barlow Condensed', sans-serif;
     font-size:1.286vw;
+    /* letter-spacing: 0.193v */
 }
 .nav-text a{
     padding: 30px 0;

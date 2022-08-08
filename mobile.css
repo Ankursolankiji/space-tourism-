@@ -1,0 +1,42 @@
+@media (max-width:375px){
+    body {
+        background-image: url("assets/home/background-home-mobile.jpg");
+        height: fit-content;
+        background-size:auto;
+
+    }
+    .index-content-left{
+        height: auto;
+        padding-bottom: 1vh;
+    }
+    .btn-explore{
+        height: 30vh;
+    }
+     /* font-size */
+     .heading-four {
+        font-size: 5vw;
+    }
+
+    .heading-five,
+    .subheading-one,
+    .subheading-two {
+        font-size: 2.25vw;
+
+    }
+
+    .index-content-left h4 {
+        font-size: 4vw;
+        padding-top: 2vh;
+    }
+
+    .heading-one {
+        padding-top: 2vh;
+        font-size: 25vw;
+    }
+
+    .body-text {
+        word-spacing: .4vw;
+        font-size: 3vw;
+    }
+
+}

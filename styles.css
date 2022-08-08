@@ -104,7 +104,7 @@ backdrop-filter: blur(15px);
     width: 25vw;
 }
 .index-content-left{
-    width: 570px;
+    width: 45vw;
     position: relative;
     margin-bottom: 150px;
     left: 8vw;
@@ -113,7 +113,7 @@ backdrop-filter: blur(15px);
 
 }
 .index-content-left h4{
-    font-size: 28px;
+    font-size: 2vw;
 }
 .index-content-left p{
 

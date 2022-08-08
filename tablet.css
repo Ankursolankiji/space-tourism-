@@ -1,0 +1,227 @@
+@media (max-width:1000px) {
+
+    /* font-size */
+    .heading-four {
+        font-size: 2.5vw;
+    }
+
+    .heading-five,
+    .subheading-one,
+    .subheading-two {
+        font-size: 2.25vw;
+
+    }
+
+    .index-content-left h4 {
+        font-size: 2.5vw;
+    }
+
+    .heading-one {
+        font-size: 13vw;
+    }
+
+    .body-text {
+        font-size: 1.5vw;
+    }
+
+    .nav-text a {
+        font-size: 1.2vw;
+    }
+
+    /* main */
+    .explore {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .explore-hover {
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+@media(max-width:770px) {
+
+    /* font-size */
+    .heading-four {
+        font-size: 3vw;
+    }
+
+    .heading-five,
+    .subheading-one,
+    .subheading-two {
+        font-size: 2.25vw;
+
+    }
+
+    .index-content-left h4 {
+        font-size: 2.8vw;
+        padding-top: 2vh;
+    }
+
+    .heading-one {
+        padding-top: 2vh;
+        font-size: 17vw;
+    }
+
+    .body-text {
+        font-size: 2vw;
+    }
+
+    .nav-text a {
+        font-size: 2vw;
+    }
+
+    /* home-page */
+    nav b {
+        display: none;
+    }
+
+    .nav {
+        padding: 0;
+        height: 80px;
+    }
+
+    .index-content-left {
+        margin: 0 auto;
+        padding: 10% 5%;
+        width: 90VW;
+        position: static;
+        text-align: center;
+    }
+
+    .rectangle-one {
+        display: none;
+    }
+
+    .rectangle-two {
+        top: 0px;
+    }
+/* background: ; */
+    body {
+        background-image: url("assets/home/background-home-tablet.jpg")
+    }
+
+    .explore {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    .btn-explore {
+        width: 100vw;
+        position: static;
+        margin: 0 auto;
+        height: 50vh;
+    }
+
+    .explore-hover {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    .explore-hover:hover {
+        height: 40vw;
+        width: 40vw;
+    }
+}
+
+@media(max-width:575px) {
+    nav b {
+        display: inline-block;
+    }
+
+    /* toggler */
+    .rectangle-two {
+        display: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+
+    }
+
+    .navbar-toggler {
+        color: white;
+    }
+
+    .navbar-toggler:focus {
+        border: none;
+        box-shadow: none;
+    }
+
+    .offcanvas {
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(15px);
+    }
+
+    .nav-text a {
+        font-size: 4vw;
+        padding: 1vh;
+        padding-left: 0;
+    }
+
+    .nav-text {
+
+        margin: 3vh;
+    }
+
+    .active-navtext a {
+        padding: 1VH;
+        padding-left: 0;
+        border-bottom: 3px solid #ffffff;
+    }
+
+    .nav-text a:hover {
+        padding: 1VH;
+        padding-left: 0;
+        border-bottom: 3px solid #ffffff7a;
+    }
+
+    /* font-size */
+    .heading-four {
+        font-size: 5vw;
+    }
+
+    .heading-five,
+    .subheading-one,
+    .subheading-two {
+        font-size: 2.25vw;
+
+    }
+
+    .index-content-left h4 {
+        font-size: 3.5vw;
+        padding-top: 2vh;
+    }
+
+    .heading-one {
+        padding-top: 2vh;
+        font-size: 20vw;
+    }
+
+    .body-text {
+        font-size: 2.8vw;
+    }
+
+    .explore {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .btn-explore {
+        width: 100vw;
+        position: static;
+        margin: 0 auto;
+        height: 60vh;
+    }
+
+    .explore-hover {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .explore-hover:hover {
+        height: 50vw;
+        width: 50vw;
+    }
+}
